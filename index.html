@@ -72,19 +72,18 @@
             <div class="container fea">
             <h2 class="feature-title centered">Чим ми займаємося</h2>
             <ul class="feat">
-            <div class="work-image">
-                 <li class="featli"><img src="./images/img1.jpg" class="featimg" alt="друкує" width="370">
+                 <li class="featli"><div class="work-image"><img src="./images/img1.jpg" class="featimg" alt="друкує" width="370">
                     <p class="work-hidden">Десктопні додатки</p>
-                </li></div>
-            <div class="work-image">
-                 <li class="featli"><img src="./images/img2.jpg" class="featimg" alt="розмовляє по телефону" width="370">
+                </div></li>
+
+                 <li class="featli"><div class="work-image"><img src="./images/img2.jpg" class="featimg" alt="розмовляє по телефону" width="370">
                     <p class="work-hidden">Мобільні додатки</p>
-                </li></div>
-            <div class="work-image">
-                 <li class="featli">
+                </div></li>
+           
+                 <li class="featli"><div class="work-image">
                     <img src="./images/img3.jpg"  class="featimg" alt="обирає кольори" width="370">
                     <p class="work-hidden">Дизайнерські рішення</p>
-                </li></div>
+                </div></li>
             </ul>
             </div>
         </section>
@@ -297,6 +296,17 @@
                 </ul>
             </div>
         </section>
+            <!--Модальне вікно-->
+            <div class="backdrop is-hidden" data-modal>
+                <div class="backdrop-modal">
+                    <button data-modal-close type="button" class="close-modal">
+                        <svg class="icon-close" width="18" height="18">
+                        <use xlink:href="./images/iconimag/sprite.svg#icon-close"></use>
+                    </svg>
+                    </button>
+                    <form action="#"></form>
+                </div>
+            </div>
     </main>
 
     <footer class="page-footer fot">
@@ -352,16 +362,7 @@
                 </div>
         </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
-        <div class="backdrop-modal">
-            <button class="close-button" type="button" data-modal-close>
-                <svg class="close-icon" width="18" height="18">
-                    <use xlink:href="./images/iconimag/sprite.svg#icon-close"></use>
-                </svg>
-            </button>
-            <form action="#"></form>
-        </div>
-    </div>
+   
     <script src="./js/modal.js"></script>
 </body>
 
